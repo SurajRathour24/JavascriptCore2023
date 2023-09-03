@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+.glow-bulb{
+    background: yellow !important;
+    border: 1px solid yellow;
+}
+.bulb-box {
+    background: #00000040;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#bulb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button.bulb-controller {
+    background: lightgray;
+    padding: 10px 20px;
+    border: 1px solid;
+    cursor: pointer;
+}
