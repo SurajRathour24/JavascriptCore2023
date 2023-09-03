@@ -15,6 +15,16 @@
     border-radius: 100%;
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
+}
+.bulb-box:after {
+    position: absolute;
+    background: #4c4848;
+    bottom: -45px;
+    content: "";
+    height: 50px;
+    width: 40px;
+    left: 38%;
 }
 
 #bulb {
@@ -29,4 +39,5 @@ button.bulb-controller {
     padding: 10px 20px;
     border: 1px solid;
     cursor: pointer;
+    margin-top: 40px;
 }
