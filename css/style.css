@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     transition: 1s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .glow-bulb{
     background: yellow !important;
@@ -40,4 +41,12 @@ button.bulb-controller {
     border: 1px solid;
     cursor: pointer;
     margin-top: 40px;
+}
+
+
+
+.box-item{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 700;
 }
